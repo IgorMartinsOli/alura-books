@@ -63,16 +63,4 @@ O projeto utiliza as seguintes dependências:
 - `npm test`: Executa os testes da aplicação.
 - `npm eject`: Remove a abstração do ambiente de criação do projeto, permitindo customizações avançadas.
 
-## Autor
-
-Seu Nome - [Seu Perfil no GitHub](https://github.com/seu-usuario)
-
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Este é um exemplo fictício de README para o projeto "Alura Books". Lembre-se de personalizar o README com informações específicas sobre o seu projeto real, incluindo detalhes sobre sua funcionalidade, dependências, instruções de instalação e uso, bem como informações sobre a licença e o autor.
-
 
