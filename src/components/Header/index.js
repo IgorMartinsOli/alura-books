@@ -1,11 +1,12 @@
+import './style.css'
 import Logo from '../../images/logo.svg';
-import OpcoesHeader from '../OpcoesHeader/index.js';
-import IconesHeader from '../IconesHeader/index.js';
+import OpcoesHeader from '../OpcoesHeader'
+import IconesHeader from '../IconesHeader'
 
 function Header() {
     return (
         <header className="App-header">
-            <Logo/>
+            <Logo />
             <OpcoesHeader/>
             <IconesHeader/>
         </header>

@@ -1,11 +1,11 @@
 import './style.css'
-import logo from '../../images/logo.svg'
+import LogoSVG from '../../images/logo.svg';
 
 function Logo() {
     return (
         <div className="logo">
             <img
-                src={logo}
+                src={LogoSVG}
                 alt="logo"
                 className="logo-img"
             ></img>

@@ -1,7 +1,7 @@
-import perfil from '../../images/perfil.svg';
-import sacola from '../../images/sacola.svg';
+import perfilSGV from '../../images/perfil.svg';
+import sacolaSGV from '../../images/sacola.svg';
 import './style.css';
-const icones = [perfil, sacola];
+const icones = [perfilSGV, sacolaSGV];
 
 function IconesHeader (){
     return (
