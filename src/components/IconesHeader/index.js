@@ -1,15 +1,25 @@
 import perfilSGV from '../../images/perfil.svg';
 import sacolaSGV from '../../images/sacola.svg';
-import './style.css';
+import styled from 'styled-components';
 const icones = [perfilSGV, sacolaSGV];
+
+const Icone = styled.li`
+    margin-right: 30px;
+    width: 25px;
+`
+
+const Icones = styled.ul`
+    display: flex;
+    align-items: center;
+`
 
 function IconesHeader (){
     return (
-        <ul className="icones">
+        <Icones>
             { icones.map((icone) => (
-            <li className="icone"><img src={icone}  alt="Icone representando coisa"></img></li>
+            <Icone><img src={icone}  alt="Icone representando coisa"></img></Icone>
             ))}
-        </ul>
+        </Icones>
     )
 }
 
